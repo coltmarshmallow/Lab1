@@ -8,11 +8,14 @@
 
                 $myage = 18;
 
-                if ($myage > 16){
+                if ($myage >= 16){
                     print "You cans buy specs";
-                } else if ($myage > 18){
+                } else if ($myage >= 18){
+                    print "You cans buy specs";
                     print "You cans buy mugs";
-                } else if ($myage > 21){
+                } else if ($myage >= 21){
+                    print "You cans buy specs";
+                    print "You cans buy mugs";
                     print "You cans buy sausage rolls";
                 }
 
