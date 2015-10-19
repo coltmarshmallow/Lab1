@@ -4,9 +4,12 @@
         <body>
             <p>
                 <?php
-                echo "Hello World";
-                echo "Hello," . " " . "world" . "!";
+                echo "Hello World/n";
+                echo "Hello," . " " . "world" . "!/n";
                 echo 5 * 7;
+
+                $myname = "Frodo Baggins";
+
                 ?>
             </p>
         </body>
