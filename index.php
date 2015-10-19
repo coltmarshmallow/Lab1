@@ -4,8 +4,8 @@
         <body>
             <p>
                 <?php
-                echo "Hello World" \n;
-                echo "Hello," . " " . "world" . "!"\n;
+                echo "Hello World \n";
+                echo "Hello," . " " . "world" . "!\n";
                 echo 5 * 7;
 
                 $myname = "Frodo Baggins";
