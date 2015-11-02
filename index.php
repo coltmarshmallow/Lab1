@@ -5,7 +5,7 @@
             <p>
                 <?php
                 function makeTextInputField($name){
-                        $text = ucfirst($name)
+                        $text = ucfirst($name);
                         echo "
                             <label for='{$name}'>{$text}</label>
                             input type='text' name'{$name}'/>
