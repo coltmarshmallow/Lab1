@@ -22,6 +22,7 @@
                         makeTextInputField('password');
                     ?>
                 </div>
+            </p>
         </body>
     </head>
 </html>
