@@ -8,7 +8,7 @@
                         $text = ucfirst($name);
                         echo "
                             <label for='{$name}'>{$text}</label>
-                            input type='text' name'{$name}'/>
+                            <input type='text' name'{$name}'/>
                         ";
                 }
 
