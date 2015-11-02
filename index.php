@@ -17,7 +17,7 @@
 
                 ?>
                 <div = 'input'>
-                    <?
+                    <?php
                         makeTextInputField('username');
                         makeTextInputField('password');
                     ?>
