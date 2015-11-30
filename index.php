@@ -4,6 +4,7 @@
         <body>
             <p>
                 <?php
+                $pass = false;
                 function makeTextInputField($name){
                         $text = ucfirst($name);
                         echo "
@@ -13,13 +14,24 @@
                 }
 
 
-                echo "Hello World \n";
+                echo "Hello World \n";#
+                $username = "Josh";
+                $password = "secrets";
 
                 ?>
                 <div = 'input'>
                     <?php
                         makeTextInputField('username');
                         makeTextInputField('password');
+
+
+                    function passOrFail($username){
+                        if ($username == makeTextInputField('username')){
+                                $pass = true;
+                                echo "success";
+                        }
+                    }
+
                     ?>
                 </div>
             </p>
